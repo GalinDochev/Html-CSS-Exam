@@ -1,0 +1,300 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+*{
+    padding: 0;
+    margin: 0;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font:14px/1.5 'PT Sans', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+header nav{
+    display: flex;
+    justify-content:space-around;
+    background-color: white
+}
+header nav ul{
+
+    display: flex;
+    margin-top: 20px;
+    
+}
+header nav ul li{
+    display: block;
+    padding: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.Sign-up{
+    padding: 15px 25px;
+    background-color: rgba(173, 226, 223, 1);
+    border-radius: 15px;
+    border-color:rgba(173, 226, 223, 1) ;
+
+}
+.right-side{
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    background-color: rgba(173, 226, 223, 1);
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-content h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+}
+.buttons button{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border-color: black;
+}
+.prices{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-items{
+    text-align: center;
+    border-left: 0.5px solid rgba(219, 219, 219, 1) ;
+    padding: 35px;
+    flex: 1 1 30%;
+    list-style-type: none;
+    border-right: 0.5px solid rgba(219, 219, 219, 1) ;
+}
+.list-items p{
+    font-size: 16px;
+}
+.list-items h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.list-items-last{
+    text-align: center;
+    list-style-type: none;
+    border-right: 0.5px solid rgba(219, 219, 219, 1) ;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.list-items-last h2{
+    font-size: 35px;
+}
+.phone{
+    display: flex;
+    background-color: rgba(173, 226, 223, 1);
+    
+}
+.phone-image{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 50%;
+    justify-content:center;
+    align-items: center;
+}
+.phone-image img{
+    width: 50%;
+    border: 1px dotted rgba(152, 184, 182, 1);
+}
+.finbest-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-header{
+    font-size: 45px;
+    font-weight: bold;
+}
+.content-smaller-header{
+    font-size: 25px;
+}
+.content{
+    margin-bottom: 20px;
+}
+.explorer{
+    border-bottom: 1px solid black;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .button-explore{
+    display: block;
+  }
+  .setup{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .setup button{
+    padding: 5px 25px;
+    background-color: rgba(173, 226, 223, 1);
+    font-weight: bold;
+    border-radius: 10px;
+    border-color:rgba(173, 226, 223, 1) ;
+  }
+  .setup h1{
+    margin-top: 10px;
+    font-size:30px;
+  }
+  .pricing-fees{
+    display: flex;
+  }
+  .pricing-fee-one {
+    display: flex;
+  }
+  .expand-pricing{
+    background-color: rgba(173, 226, 223, 1);
+    padding: 20px;
+  }
+  .expand-pricing h1{
+    text-align: center;
+  }
+  .box { 
+    
+    flex-grow: 1; 
+}
+.button-expand{
+    background-color: black;
+    color: white;
+}
+.get-started{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(173, 226, 223, 1);
+    margin: 40px 0;
+    padding: 40px;
+}
+.get-started h1{
+    font-size: 45px;
+}
+.links{
+    display: flex;
+    padding: 10px;
+}
+footer{
+    margin-left: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border-left: 0.5px dotted grey;
+    flex-grow: 1;
+    padding: 12px;
+    width: 200px;
+}
+.box h2{
+    text-align: center;
+}
+.box h2{
+    padding: 10px;
+}
+.box-one{
+    border: none;
+}
+.box-one button{
+    padding: 10px 30px;
+margin-left: 20px;
+    background-color:rgba(173, 226, 223, 1) ;
+    border-color: rgba(173, 226, 223, 1);
+}
+.box-one h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.box-one p
+.box h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.box button{
+    padding: 10px 35px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color:rgba(173, 226, 223, 1) ;
+    border-color: rgba(173, 226, 223, 1);
+}
+.bigger{
+    font-size: 25px;
+}
+.get{
+    border-radius: 15px;
+    background-color:rgba(173, 226, 223, 1) ;
+    border-color: rgba(173, 226, 223, 1);
+}
+.pricing-fee-one{
+    padding: 25px 25px;
+}
+.same-ul li{
+    list-style-type: none;
+    padding: 2px 15px;
+    font-size: 11px;
+}
+.expand-pricing{
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.expand-pricing h1{
+    text-align: center;
+}
+.expand-pricing p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.expand-pricing li{
+    list-style: none;
+}
+.no-dec{
+    text-decoration: none;
+    color: black;
+}
+.button-div{
+    
+margin: 0 auto;
+}
